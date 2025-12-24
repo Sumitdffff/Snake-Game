@@ -1,99 +1,92 @@
-# Snake Game – Java Swing Based Game
+# 🐍 Snake Game – Java Swing Desktop Game
 
-Snake Game ek classic Java Swing-based desktop game hai jisme player snake ko control karta hai, food collect karta hai aur score increase karta hai. Game ke sath difficulty bhi badhti hai.
+**Snake Game** ek classic arcade-style game hai jo **Java Swing** ka use karke develop kiya gaya hai.  
+Player keyboard keys se snake ko control karta hai, food khata hai, score badhata hai aur wall ya khud se takrane par game over ho jata hai.
 
----
-
-## Project Overview
-
-Is project me 100% Java Swing ka use karke ek classic Snake Game GUI develop kiya gaya hai.
-
-### Highlights
-- Classic snake movement
-- Food (apple) generation
-- Score increasing system
-- Game Over screen
-- Keyboard controls
-- Smooth animation using Timer
+Game me **start screen**, **game over screen**, **restart option**, aur **high score system** bhi implement kiya gaya hai.
 
 ---
 
-## Features
+## 🖥️ Project Overview
 
-### Snake Gameplay
-- Snake continuously move karta hai
-- Food khane par snake grow hoti hai
-- Wall collision detection
-- Self collision detection
-- Real-time score update
+Is project me **100% Core Java + Java Swing** ka use kiya gaya hai.  
+Game ka GUI simple, smooth aur beginner-friendly hai.
 
-### Controls
-- Arrow Keys ka use hota hai  
-  - Up Arrow – Move Up  
-  - Down Arrow – Move Down  
-  - Left Arrow – Move Left  
-  - Right Arrow – Move Right  
-
-### Game Over
-- Snake wall se takraye
-- Snake khud se collide kare
-- Game Over message display hota hai
-- Restart option (if implemented)
+### Highlights:
+- ✔ Classic Snake gameplay
+- ✔ Keyboard-based controls
+- ✔ Start screen (Press Any Key / Enter to Start)
+- ✔ Game Over screen with restart option
+- ✔ High Score system
+- ✔ Smooth movement & collision detection
 
 ---
 
-## GUI
-- Java Swing ka use
-- Custom background
-- Snake & food graphics
-- paintComponent() rendering
-- Timer-based animation
+## 🚀 Features
+
+### 🐍 Gameplay
+- Snake moves using keyboard keys
+- Food (apple) eat karne par snake grow hoti hai
+- Score automatically increase hota hai
+- Wall ya body collision par **Game Over**
+
+### 🔁 Restart System
+- Game Over ke baad **Enter key** ya **Any Key** dabakar game restart
+- High Score reset nahi hota
+
+### 🏆 Scoring
+- Current Score display
+- High Score saved during runtime
+
+### 🖥️ GUI
+- Java Swing-based game board
+- Clean colors & smooth animation
+- Lightweight desktop game
 
 ---
 
-## Tech Stack
+## 🎮 Controls
 
-### Programming Language
-- Java (Core Java)
+| Key | Action |
+|----|-------|
+| ↑ | Move Up |
+| ↓ | Move Down |
+| ← | Move Left |
+| → | Move Right |
+| Enter / Any Key | Start / Restart Game |
 
-### GUI
+---
+
+## 🛠️ Tech Stack
+
+### **Programming**
+- Core Java
 - Java Swing
 - Java AWT
 
-### Tools
-- IntelliJ IDEA / Eclipse / NetBeans
-- JDK 8+
+### **Tools Used**
+- Java JDK 8+
+- Any Java IDE (IntelliJ / Eclipse / NetBeans / VS Code)
 
 ---
 
-## Modules Included
+## 📦 Modules Included
 
-### Game Components
-- Game Board
-- Snake Head & Body
-- Food (Apple)
-- Score Counter
+### **Game Screens**
+- Start Screen
+- Main Game Board
 - Game Over Screen
 
-### Game Logic
+### **Game Logic**
 - Snake movement logic
+- Food generation
 - Collision detection
-- Random food generation
-- Score calculation
-- Game loop using Timer
-
----
-
-## Purpose of the Project
-- Java Swing practice
-- Event-driven programming
-- OOP concepts implementation
-- Mini project for college
-- Game development basics
-
----
-
-## 📘 Project Screenshots
+- Score & High Score management
+- Timer-based game loop
+  
+ ---
+ 
+ ## 📘 Project Screenshots
 
 <table>
 <tr>
@@ -111,7 +104,7 @@ Is project me 100% Java Swing ka use karke ek classic Snake Game GUI develop kiy
 
 ---
 
-## How to Run
+## ▶️ How to Run
 1. Repository clone karo
 2. IDE me open karo
 3. JDK 8+ installed ho
