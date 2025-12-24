@@ -1,109 +1,119 @@
-# Snake Game – Java-Based Desktop Game
+# Snake Game – Java Swing Based Game
 
-**Snake Game** ek classic **Java Swing-based desktop game** hai jisme player arrow keys ki madad se snake ko control karta hai. Snake food khata hai, score badhta hai aur wall ya khud se takraate hi game over ho jata hai.
-
-Ye project **Java Swing GUI, event handling aur game logic** ko samajhne ke liye best beginner project hai.
+Snake Game ek classic Java Swing-based desktop game hai jisme player snake ko control karta hai, food collect karta hai aur score increase karta hai. Game ke sath difficulty bhi badhti hai.
 
 ---
 
 ## Project Overview
 
-Project me 100% **Java Swing & Java AWT** ka use kiya gaya hai, jisme ek classic snake game ka GUI aur smooth animation implement kiya gaya hai.
+Is project me 100% Java Swing ka use karke ek classic Snake Game GUI develop kiya gaya hai.
 
 ### Highlights
-- Classic snake gameplay
-- Food eating & score system
+- Classic snake movement
+- Food (apple) generation
+- Score increasing system
 - Game Over screen
-- Enter key se game restart
+- Keyboard controls
 - Smooth animation using Timer
-- Clean & simple GUI
 
 ---
 
 ## Features
 
 ### Snake Gameplay
-- Arrow keys se snake movement
-- Food khane par snake ki length badhti hai
-- Score automatically update hota hai
-
-### Food System
-- Random position par food generate hota hai
-- Har food par score increase hota hai
-
-### Game Over System
-- Wall collision ya self collision par game over
-- Game Over message display hota hai
-- Enter key press karne par game restart hota hai
+- Snake continuously move karta hai
+- Food khane par snake grow hoti hai
+- Wall collision detection
+- Self collision detection
+- Real-time score update
 
 ### Controls
-- Up Arrow – Move Up  
-- Down Arrow – Move Down  
-- Left Arrow – Move Left  
-- Right Arrow – Move Right  
-- Enter – Restart Game  
+- Arrow Keys ka use hota hai  
+  - Up Arrow – Move Up  
+  - Down Arrow – Move Down  
+  - Left Arrow – Move Left  
+  - Right Arrow – Move Right  
+
+### Game Over
+- Snake wall se takraye
+- Snake khud se collide kare
+- Game Over message display hota hai
+- Restart option (if implemented)
 
 ---
 
 ## GUI
-- Java Swing based interface
-- Java AWT graphics
-- Fixed game window size
-- Snake aur food ke liye custom images
+- Java Swing ka use
+- Custom background
+- Snake & food graphics
+- paintComponent() rendering
+- Timer-based animation
 
 ---
 
 ## Tech Stack
 
-### Frontend + Backend
+### Programming Language
 - Java (Core Java)
+
+### GUI
 - Java Swing
 - Java AWT
 
-### Tools Used
+### Tools
+- IntelliJ IDEA / Eclipse / NetBeans
 - JDK 8+
-- Eclipse / IntelliJ / NetBeans
 
 ---
 
 ## Modules Included
 
-### GUI Components
-- Main Game Window
-- Game Board Panel
-- Score Display
+### Game Components
+- Game Board
+- Snake Head & Body
+- Food (Apple)
+- Score Counter
 - Game Over Screen
 
 ### Game Logic
 - Snake movement logic
-- Food generation logic
 - Collision detection
-- Timer-based animation
-- Keyboard event handling
+- Random food generation
+- Score calculation
+- Game loop using Timer
 
 ---
 
 ## Purpose of the Project
-- Classic snake game implementation
-- Java Swing GUI practice
-- Event-driven programming understanding
-- Mini / micro project for college
-- Beginner-friendly desktop game demo
+- Java Swing practice
+- Event-driven programming
+- OOP concepts implementation
+- Mini project for college
+- Game development basics
 
 ---
-## 📘 Screenshots On My Project
+
+## 📘 Project Screenshots
 
 <table>
 <tr>
-<td>
-<p align="center">Main Alarm Window</p>
-<img src="https://github.com/user-attachments/assets/927be3c8-b1ea-4485-ad06-0dd6e6b494ff" width="300">
+<td align="center">
+<p><b>Playing Game</b></p>
+<img src="https://github.com/user-attachments/assets/d9abd04e-f514-4fb2-9593-574a5b4c4f34" width="400">
 </td>
-<td>
-<p align="center">Set Alarm Window</p>
-<img src="https://github.com/user-attachments/assets/c288f103-cadb-4c6c-959d-0bb68ec23013" width="300">
+
+<td align="center">
+<p><b>Game Over</b></p>
+<img src="https://github.com/user-attachments/assets/ba9215ae-3a36-438a-ae46-1b48b947a419" width="400">
 </td>
 </tr>
 </table>
 
+---
 
+## How to Run
+1. Repository clone karo
+2. IDE me open karo
+3. JDK 8+ installed ho
+4. SnakeGame.java run karo
+5. Game enjoy karo
